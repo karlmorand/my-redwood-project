@@ -5935,15 +5935,15 @@ __metadata:
   linkType: hard
 
 "@types/babel__core@npm:^7.1.14":
-  version: 7.1.20
-  resolution: "@types/babel__core@npm:7.1.20"
+  version: 7.20.0
+  resolution: "@types/babel__core@npm:7.20.0"
   dependencies:
-    "@babel/parser": ^7.1.0
-    "@babel/types": ^7.0.0
+    "@babel/parser": ^7.20.7
+    "@babel/types": ^7.20.7
     "@types/babel__generator": "*"
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
-  checksum: f88025726047188c9ee96790294d5bb56bf452f6b65f80389788e8b11c16aab77fd709e2d1c07117ddee4e8a267615a88434b0570318301554daf304e20d7ad3
+  checksum: 75dcd39258bc008b6fd4db7de2c8bfeb29b5cd2c726f54407f70243ddea1d8ce9e7082281557614c4a5f9f30d478387ca6ab6cc576fc829cebeb159bfaa8799f
   languageName: node
   linkType: hard
 
@@ -6241,12 +6241,12 @@ __metadata:
   linkType: hard
 
 "@types/jest@npm:*":
-  version: 29.2.5
-  resolution: "@types/jest@npm:29.2.5"
+  version: 29.2.6
+  resolution: "@types/jest@npm:29.2.6"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: df7a21f93d1c6dbe520b2bd735a51dc1675bdc32090d421ea742a320a9ea0126680a3abe66321b0944941061dda698b1e775dcde2d16c44f19e24a94f7ef7020
+  checksum: f52c3824c972902e25ed1b3d05086260ef088828168b60bab427dcffc83ddbc95fec82000eecbdae26a0c05da3b65073b88553ce328e71a2ffbaa5e7fd560548
   languageName: node
   linkType: hard
 
@@ -6501,7 +6501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.52, @types/react@npm:^17":
+"@types/react@npm:17.0.52":
   version: 17.0.52
   resolution: "@types/react@npm:17.0.52"
   dependencies:
@@ -6509,6 +6509,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: df8662375c71eab90f9832bf388e210b337514ff0cfd260547c498b5a010a8bba980fa704b0e828070e83363c8d20a0a03e3e2fcd27d50649c3811b1279ea9ed
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17":
+  version: 17.0.53
+  resolution: "@types/react@npm:17.0.53"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 4ff3fa58ab32deefacdbd0ee002e294548391238ce2dea2cad213e11b4cc61480be48cb2b7ed3c53220ee1a5b9cadf3417a20db817ab2ca4669c9a4a45042b92
   languageName: node
   linkType: hard
 
@@ -6701,11 +6712,11 @@ __metadata:
   linkType: hard
 
 "@types/yargs@npm:^17.0.8":
-  version: 17.0.19
-  resolution: "@types/yargs@npm:17.0.19"
+  version: 17.0.20
+  resolution: "@types/yargs@npm:17.0.20"
   dependencies:
     "@types/yargs-parser": "*"
-  checksum: 80cfb1f10f414244ba3134d516f545819488e5809ddc5f7029e152ab142897a2b1116f9d1ac5f7ebef35a4e799fbbdbfdc7986f5cd9dc096ce9443b31e59068d
+  checksum: 1f6b1378da6f52f8195bd25c15f5b22187e2dc419b8234f42accb6ed8787bfad2e4c1c3ee0217b574dcb01a4a903ef5f5dde1aa8e1fed4fb1df9ae4c36766e66
   languageName: node
   linkType: hard
 
@@ -10093,18 +10104,18 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.25.1, core-js-compat@npm:^3.8.1":
-  version: 3.27.1
-  resolution: "core-js-compat@npm:3.27.1"
+  version: 3.27.2
+  resolution: "core-js-compat@npm:3.27.2"
   dependencies:
     browserslist: ^4.21.4
-  checksum: 635ffcc3f40ca4cb45b10ea805ebf57bbba69873014c89bec96ae09f15cbd3012bd5102bdf87551ef2f1c629e279837632200c4888428035cf822f6e40dc383b
+  checksum: 1bb3b63ae46420b55d78171750f58f73f1a0df8312d3be37111588f068f06a2c18f397737f5603c80fa78bd05f224c93fb60459ff05d80f7dbeeb8a97fbdf457
   languageName: node
   linkType: hard
 
 "core-js-pure@npm:^3.23.3, core-js-pure@npm:^3.25.1":
-  version: 3.27.1
-  resolution: "core-js-pure@npm:3.27.1"
-  checksum: c1da3f6ce09544a43fd01e24ae15e248882fa102e6ac19454e46f4f3587e3bf2e00ad2596c8dbe691cb3a4c4cf31c72195e48904be830f541be70a90f8531085
+  version: 3.27.2
+  resolution: "core-js-pure@npm:3.27.2"
+  checksum: 861bb21d83914a01319ddadb42d7b39d253f87b638feaa958208146c0b045f9de984af1a0752dc0484a099b65257746c4a91f8f2c396ce80524126882984079c
   languageName: node
   linkType: hard
 
@@ -10116,9 +10127,9 @@ __metadata:
   linkType: hard
 
 "core-js@npm:^3.0.4, core-js@npm:^3.26.0, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
-  version: 3.27.1
-  resolution: "core-js@npm:3.27.1"
-  checksum: 39bb23f4ab38df2b51f0967b5e398759565e38a92540019a9c2ee7e747b4c833296ef139c8be9db3e16024c450eff1d09be43c3c5c26e0547a004866fe86dadb
+  version: 3.27.2
+  resolution: "core-js@npm:3.27.2"
+  checksum: dd0041b8bea1033935bb055e15ce81c09eed7f2548485783993bf93923d4e9908b70cdbccac03f9bf6393497eca1d46b476e3eef773fe2ce7d957d1e552ebdbc
   languageName: node
   linkType: hard
 
@@ -11149,9 +11160,9 @@ __metadata:
   linkType: hard
 
 "dom-accessibility-api@npm:^0.5.6, dom-accessibility-api@npm:^0.5.9":
-  version: 0.5.15
-  resolution: "dom-accessibility-api@npm:0.5.15"
-  checksum: 5995ee3ca77c536312a3938075d9124175223be563b94189c133679bd04b0a6e4fde0a6d3714e53b9e00980798291e761995a1e6a6023ac88031c49cfea7fe65
+  version: 0.5.16
+  resolution: "dom-accessibility-api@npm:0.5.16"
+  checksum: b2c2eda4fae568977cdac27a9f0c001edf4f95a6a6191dfa611e3721db2478d1badc01db5bb4fa8a848aeee13e442a6c2a4386d65ec65a1436f24715a2f8d053
   languageName: node
   linkType: hard
 
